@@ -4,7 +4,11 @@
 
 The overview should be a general description of your project. This should be a high level overview of your design decisions and how you will implement them, including detailed information on how you will handle difficulties such as software and hardware integration. This should also contain information on the hardware including references to the electrical requirements of all the individual components of your system and how those requirements will be managed. You should also discuss what kind of software you will be running, undergo a brief analysis to show you have the compute power to run your software, and discuss how the software will use the inputs your hardware gives it to complete its task. 
 
-This should be written at a level such that any technical graduate can understand what you are doing. 
+### Software Plan
+This should be a more detailed explanation of how your software will work. This should include the programming language(s) you will be using, any libraries, what IDE(s) you will be working with, your approach for testing your software, and how you will be using the inputs from your hardware to complete your task.
+
+### Hardware Plan
+This should be a more detailed explanation of how your hardware will work. This should include the electrical requirements of all the individual components of your system and how those requirements will be managed. This should also include a detailed explanation of the hardware components of your system and how they will interact with each other. This should include a detailed explanation of the sensors you will be using, how they work, and how you will be using them to complete your task. This should also include specifications of your components, including the voltage/current ranges they support as well as their physical dimensions (when applicable). 
 
 ## Flowchart of System Design
 
@@ -40,10 +44,6 @@ Please include a flowchart of your system design. This should include the hardwa
 ## 3D Model
 
 This should be a series of images from multiple angles of a to scale model of your robot that includes all major physical components (small components such as fundamental circuit components and wires can be omitted). You may use whatever method of creating this model as long as it is to scale. We recommend using 3D CAD programs such as Autodesk Inventor or Fusion 360. You may also use physical prototyping methods such as foam-core, cardboard, clay, or even Lego. The most important thing is that you get a real-world representation of the actual size of your components in relation to each other. As such, this model does not need to be detailed, as long as the size and shape of parts are correct. 
-
-## Software Plan
-
-The software stack will be based on Python and ROS2. The program will be running three ROS nodes. One node will be used for running the flood fill algorithm, one node will be used for reading sensor data and calculating the current position of the robot, and the last ROS node will be used for generating output signals to the motors for movement.  
 
 ## Teammates and Responsibilities
 
